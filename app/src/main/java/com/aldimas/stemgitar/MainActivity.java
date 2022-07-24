@@ -19,9 +19,9 @@ public class MainActivity extends AppCompatActivity {
 
         //Makes sure that the buttons send the user to desired page
         final ImageButton guitarTuner = findViewById(R.id.GuitarTuner);
-//        final ImageButton violinTuner = findViewById(R.id.ViolinTuner);
         final ImageButton Information = findViewById(R.id.Information);
         final ImageButton Tentang = findViewById(R.id.Tentang);
+        final ImageButton Tutorial = findViewById(R.id.Tutor);
         final Context context = this;
 
         guitarTuner.setOnClickListener(new View.OnClickListener(){
