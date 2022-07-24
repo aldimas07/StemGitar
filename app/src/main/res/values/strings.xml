@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Stem Gitar</string>
+    <string name="possibleString">A</string>
+    <string name="possibleHertz">123</string>
+    <string name="hz">Hz</string>
+    <string name="suggestion">Perfect!</string>
+    <string name="title1">The all new and improved.</string>
+    <string name="title2">Better</string>
+    <string name="title3">StemGitar App</string>
+    <string name="title5">A Samidi Productions</string>
+    <string name="title6">Click the buttons to navigate to your desired page</string>
+    <string name="title8">Information</string>
+    <string name="guitar_tuner">Click on the leftmost button to access the guitar tuner</string>
+    <string name="instruction1">Guitar Tuner</string>
+    <string name="information">Has Information about the @string/app_name</string>
+    <string name="info1">How to use:</string>
+    <string name="info2">The Better Guitar Tuner</string>
+    <string name="info3">It\'s as simple as 1, 2, 3s!</string>
+    <string name="info4">1: Pick your instrument</string>
+    <string name="info5">2: Play your instrument in a quiet environment</string>
+    <string name="info6">3: Tune your instrument as the app instructs till you hit "Perfect!"</string>
+    <string name="disclaimer">Note: Jika tuner mengalami freeze, silakan restart aplikasi. Jika diperlukan silakan kontak developer</string>
+    <string name="info8">Note: Please allow the app to access your microphone if you want the app to run.</string>
+    <string name="info9">For detailed information, please consult the app\'s User Manual</string>
+</resources>

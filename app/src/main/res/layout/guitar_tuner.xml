@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_stemgitar"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/possibleStringGuitar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="110dp"
+            android:layout_marginBottom="8dp"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:text="@string/possibleString"
+            android:textSize="64sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/suggestionGuitar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:fontFamily="cursive"
+            android:layout_marginTop="16dp"
+            android:textColor="@color/white"
+            android:text="@string/suggestion"
+            android:textSize="34sp"
+            android:layout_gravity="center" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:layout_gravity="center|top">
+
+            <TextView
+                android:id="@+id/possibleHertzGuitar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="@string/possibleHertz"
+                android:textColor="@color/white"
+                android:textSize="28sp" />
+
+
+            <TextView
+                android:id="@+id/hertzGuitar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hz"
+                android:textColor="@color/white"
+                android:textSize="24sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.574"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.323" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/disclaimer"
+        android:layout_width="358dp"
+        android:layout_height="50dp"
+        android:text="@string/disclaimer"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="160dp"
+        />
+
+</LinearLayout>
