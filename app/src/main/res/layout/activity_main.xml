@@ -116,7 +116,7 @@
                 app:srcCompat="@drawable/tentangicon" />
 
             <ImageButton
-                android:id="@+id/Cara"
+                android:id="@+id/Tutor"
                 android:layout_width="36dp"
                 android:layout_height="40dp"
                 android:layout_marginStart="37dp"
@@ -146,7 +146,7 @@
             android:textColor="@color/white"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="14dp"
+            android:layout_marginStart="16dp"
             android:fontFamily="cursive"
             android:text="Tentang"
             android:textSize="16sp"
@@ -156,9 +156,9 @@
             android:textColor="@color/white"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="30dp"
+            android:layout_marginStart="27dp"
             android:fontFamily="cursive"
-            android:text="How to?"
+            android:text="Tutorial"
             android:textSize="16sp"
             android:textStyle="italic" />
 
