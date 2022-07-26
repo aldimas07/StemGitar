@@ -3,10 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/ACER/AndroidStudioProjects/StemGitar/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/StemGitar/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/StemGitar/app/src/main/res/layout/activity_splashscreen.xml" value="0.10182370820668693" />
         <entry key="..\:/Users/ACER/AndroidStudioProjects/StemGitar/app/src/main/res/layout/activity_tentang.xml" value="0.25" />
         <entry key="..\:/Users/ACER/AndroidStudioProjects/StemGitar/app/src/main/res/layout/activity_tutorial.xml" value="0.25" />
         <entry key="..\:/Users/ACER/AndroidStudioProjects/StemGitar/app/src/main/res/layout/guitar_tuner.xml" value="0.11458333333333333" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/StemGitar/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.134" />
       </map>
     </option>
   </component>

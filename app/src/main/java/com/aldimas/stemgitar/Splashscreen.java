@@ -19,6 +19,7 @@ public class Splashscreen extends AppCompatActivity {
 
         //menghilangkan ActionBar
         this.requestWindowFeature(Window.FEATURE_NO_TITLE);
+        getSupportActionBar().hide();
         setContentView(R.layout.activity_splashscreen);
 
         final Handler handler = new Handler();
