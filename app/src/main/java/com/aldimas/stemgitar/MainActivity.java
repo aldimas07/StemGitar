@@ -8,7 +8,7 @@ import android.view.View;
 import android.widget.ImageButton;
 import androidx.appcompat.app.AppCompatActivity;
 
-//This class includes all of the methods needed to run the tuners and the method to load up the title screen
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -18,7 +18,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         getSupportActionBar().hide();
 
-        //Makes sure that the buttons send the user to desired page
         final ImageButton guitarTuner = findViewById(R.id.GuitarTuner);
         final ImageButton Information = findViewById(R.id.Information);
         final ImageButton Tentang = findViewById(R.id.Tentang);
@@ -33,13 +32,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-//        violinTuner.setOnClickListener(new View.OnClickListener(){
-//            @Override
-//            public void onClick(View v){
-//                Intent intent = new Intent(context, violin_tuner.class);
-//                startActivity(intent);
-//            }
-//        });
 
         Information.setOnClickListener(new View.OnClickListener(){
             @Override
@@ -81,18 +73,9 @@ public class MainActivity extends AppCompatActivity {
                 return 'B';
             else
                 return 'E';
-            //If the instrument is a violin
-//            case 'v':
-//                if (pitch >= 0 && pitch < 244)
-//                    return 'G';
-//                else if (pitch >= 244 && pitch < 366)
-//                    return 'D';
-//                else if (pitch >= 366 && pitch < 550)
-//                    return 'A';
-//                else
-//                    return 'E';
+
         }
-        return 'a';      //The compiler does not compile if I do not have a return statement here
+        return 'a';
     }
 
 
@@ -134,6 +117,6 @@ public class MainActivity extends AppCompatActivity {
             else
                 return "Tuning naikkan terus!";
         }
-        return "a";     //The compiler does not compile if I do not have a return statement here
+        return "a";
     }
 }
